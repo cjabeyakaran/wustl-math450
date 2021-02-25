@@ -26,6 +26,6 @@ git fetch upstream
 ```
 The git will tell your there is new upstream. Now do 
 ```bash
-git pull --rebase upstream master
+git pull --rebase upstream main
 ```
 This will keep the version history even for your edited local copies.
